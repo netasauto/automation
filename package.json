@@ -1,0 +1,10 @@
+{
+  "name": "CodeceptJSExample",
+  "version": "0.0.1",
+  "description": "CodeceptJSExample",
+  "author": "Volkan Kumbasar",
+  "dependencies": {},
+  "devDependencies": {
+    "codeceptjs-webdriverio": "^1.0.1"
+  }
+}
