@@ -43,3 +43,20 @@ Scenario('Google Image Search', (I) => {
     I.see('İşimi Kapsasın');
     I.saveScreenshot("combobox.jpg");
 })
+
+// Scenario('Custom Func Test', (I) => {
+//     I.amOnPage("http://etkinlikcim-new-design.eu-west-1.elasticbeanstalk.com");
+//     I.checkImage();
+//     // I.logYaz("ne yaptın");
+// })
+
+// Scenario('Custom Func Test', (I) => {
+//     I.tryThat();
+// })
+
+// Scenario('Custom Func Test', (I) => {
+//     I.loginAS01();
+//     I.see('Provisioning Client');
+//     I.see('Welcome to the Provisioning Client');
+//     I.see('Logged in as: admin');
+// })
