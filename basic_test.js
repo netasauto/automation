@@ -19,7 +19,7 @@ Scenario('check another test', (I) => {
     I.fillField('pass', 'asdf');
     I.click('Log In');
     I.wait(1);
-    I.see('The password that you' + "'" + 've entered is incorrect. ');
+    I.see('Forgotten password?');
 })
 
 Scenario('Google Image Search', (I) => {
