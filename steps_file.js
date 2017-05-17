@@ -9,7 +9,7 @@ module.exports = function() {
 
         checkImage() {
             var res = request('GET', 'http://res.cloudinary.com/etkinlikcim/image/upload/c_crop,h_810,w_545,g_center/l_watermark-etkinlikcim,y_100,w_0.5,fl_relative,g_south/v1475074824/live/vendorImages/soho-house/cover/1475074823136.jpg');
-            assert.strictEqual(res.statusCode, 300);
+            assert.strictEqual(res.statusCode, 200);
         },
 
         tryThat() {
