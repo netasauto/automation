@@ -50,9 +50,9 @@ Scenario('Custom Func Test', (I) => {
     // I.logYaz("ne yaptın");
 })
 
-// Scenario('Custom Func Test', (I) => {
-//     I.tryThat();
-// })
+Scenario('Custom Func Test', (I) => {
+    I.tryThat();
+})
 
 // Scenario('Custom Func Test', (I) => {
 //     I.loginAS01();
