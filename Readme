@@ -1,7 +1,15 @@
-npm install
-node node_modules\codeceptjs-webdriverio\node_modules\codeceptjs\bin\codecept.js run --steps
+************************************
 
+CommandLine#1
+>npm install
+>npm install -g selenium-standalone
+>selenium-standalone install
+>selenium-standalone start
 
+CommandLine#2
+>node node_modules\codeceptjs-webdriverio\node_modules\codeceptjs\bin\codecept.js run --steps
+
+************************************
 
 
 node node_modules\codeceptjs-webdriverio\node_modules\codeceptjs\bin\codecept.js init
